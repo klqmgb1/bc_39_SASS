@@ -1,0 +1,69 @@
+footer{
+    padding-top: 100px;
+    background-image: url(./../../img/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 200px;
+    .footer-item{
+        align-items: center;
+    }
+    .item-link li{
+        list-style: none;
+        padding: 5px 0;
+    }
+    .item-about li{
+        list-style: none;
+        padding: 5px 0;
+    }
+    .item-link a{
+        color: $color-white-1;
+        text-decoration: none;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .item-about a{
+        color: $color-white-1;
+        text-decoration: none;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .item-title{
+        font-size: $fs-6;
+        color: $color-white-1;
+    }
+    .item-contact span{
+        padding: px 0;
+        color: $color-white-1;
+    }
+    .item__right_2 span{
+        padding-right: 20px;
+    }
+    .new{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .yourmail{
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;
+        border: 1px solid #ededed9d;
+        background-color: $color-purple;
+        color: $color-white-1;
+        font-size: $fs-1;
+        margin-bottom: 5px;
+    }
+    .subcribe{
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;
+        border: 1px solid transparent;
+        &:hover{
+            color: $color-white-1;
+            background-color: $color-purple;
+            border: 1px solid $color-white-1;
+        }
+    }
+}

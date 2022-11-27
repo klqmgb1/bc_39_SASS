@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+header #phoneNavbar .nav-link {
+  padding-right: 50px;
+  color: #121212;
+  font-weight: 600;
+}
+header .phoneNav {
+  z-index: 5;
+  position: relative;
+}
+header .top-img {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+header .header__black {
+  color: #000;
+}
+header .header__white {
+  color: #f5f9fe;
+}
+header .item__right_1 {
+  border: 1px solid #b61984;
+  padding: 8px 8px;
+  border-radius: 20px 20px;
+  background-color: #b61984;
+}
+header .item__right_1 a {
+  text-decoration: none;
+}
+header .item__right_1:hover {
+  background-color: #f5f9fe;
+  border: 1px solid #b61984;
+}
+header .item__right_1:hover i {
+  color: #b61984;
+}
+header .item__right_1:hover span {
+  color: #b61984;
+}
+header .item__right_2 a:hover span {
+  color: #b61984;
+}
+header .header-pading {
+  padding-right: 5px;
+}
+header .bt_bb_row_wrapper {
+  background-image: url(./../../img/Violet_top_left_wave.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+header .bt_bb_port {
+  z-index: 5;
+}
+header .header-pading-right {
+  padding-left: 5px;
+}
+header .bt-bb-content-left {
+  margin: auto;
+}
+header .bt-bb-content-left-content-tag p {
+  color: #b61984;
+  font-size: 1.1rem;
+}
+header .bottom-about-us {
+  font-size: 3.8rem;
+}
+header .find-course {
+  background-image: url(./../../img/accent_bottom_wave_01.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+header .find-course .find-course-item {
+  margin: auto;
+}
+header .find-course .find-course-item-right {
+  padding: 13px;
+  box-shadow: 2px 2px #ededed;
+  border: 1px solid #ededed;
+  border-radius: 10px 10px;
+  background-color: rgb(255, 255, 255);
+}
+header .find-course .find-course-item-right p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 13px;
+}
+header .find-course .input-1, header .find-course .input-2 {
+  padding-bottom: 40px;
+}
+header .find-course .input-1-name {
+  position: relative;
+}
+header .find-course .input-1-email {
+  position: relative;
+}
+header .find-course .input-name {
+  position: relative;
+  padding-left: 2rem;
+  margin-right: 5px;
+  border-radius: 10px 10px;
+  padding-top: 5px;
+  border: 1px solid #ededed;
+}
+header .find-course .icon-name {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  top: 10px;
+  left: 5px;
+  color: #b61984;
+}
+header .find-course .icon-mail {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+  color: #b61984;
+}
+header .find-course .input-email {
+  position: relative;
+  padding-left: 2rem;
+  margin-left: 5px;
+  border-radius: 10px 10px;
+  padding-top: 5px;
+  border: 1px solid #ededed;
+}
+header .find-course .input-2-english {
+  position: relative;
+}
+header .find-course .icon-english {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 5px;
+  color: #b61984;
+}
+header .find-course .input-english {
+  padding-right: 100%;
+  padding-left: 2rem;
+  border-radius: 10px 10px;
+  padding-top: 5px;
+  border: 1px solid #ededed;
+}
+header .find-course .input-3 {
+  position: relative;
+}
+header .find-course .message {
+  position: relative;
+}
+header .find-course .icon-mes {
+  position: absolute;
+  z-index: 2;
+  top: 5px;
+  left: 5px;
+  color: #b61984;
+}
+header .find-course .mes-input {
+  padding-left: 30px;
+  border-radius: 10px 10px;
+  border: 1px solid #ededed;
+}
+header .find-course .button-send {
+  padding-top: 50px;
+}
+header .find-course .send {
+  padding: 10px 50px;
+  color: #f5f9fe;
+  background-color: #b61984;
+  border: 1px solid transparent;
+  border-radius: 40px 40px;
+}
+header .find-course .send:hover {
+  color: #b61984;
+  background-color: #f5f9fe;
+  border: 1px solid #b61984;
+}
+
+.our-team {
+  background-color: #dcd1f3;
+  padding-top: 50px;
+}
+.our-team .our-team-content {
+  margin: auto;
+}
+.our-team .our-team-info-item {
+  background-color: rgba(255, 252, 252, 0.9490196078);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 0px;
+  border: 1px solid rgba(236, 236, 236, 0.6823529412);
+}
+.our-team .our-team-img img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.our-team .info-top {
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+.our-team .info-top h4 {
+  font-size: 14px;
+  color: #b61984;
+  font-weight: 700;
+}
+.our-team .info-bottom {
+  text-align: center;
+}
+.our-team .our-team-item:hover .our-team-info {
+  box-shadow: 1px 1px 20px #999;
+}
+.our-team .our-team-item:hover .our-team-img {
+  box-shadow: 1px 1px 20px #999;
+}
+.our-team .our-team-item .our-team-img:hover img {
+  transition: transform 1s;
+  transform: scale(1.01);
+}
+
+footer {
+  padding-top: 100px;
+  background-image: url(./../../img/footer_background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+footer .footer-item {
+  align-items: center;
+}
+footer .item-link li {
+  list-style: none;
+  padding: 5px 0;
+}
+footer .item-about li {
+  list-style: none;
+  padding: 5px 0;
+}
+footer .item-link a {
+  color: #f5f9fe;
+  text-decoration: none;
+}
+footer .item-link a:hover {
+  opacity: 0.8;
+}
+footer .item-about a {
+  color: #f5f9fe;
+  text-decoration: none;
+}
+footer .item-about a:hover {
+  opacity: 0.8;
+}
+footer .item-title {
+  font-size: 2.25rem;
+  color: #f5f9fe;
+}
+footer .item-contact span {
+  padding: px 0;
+  color: #f5f9fe;
+}
+footer .item__right_2 span {
+  padding-right: 20px;
+}
+footer .new {
+  padding-bottom: 30px;
+  text-align: center;
+}
+footer .yourmail {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid rgba(237, 237, 237, 0.6156862745);
+  background-color: #b61984;
+  color: #f5f9fe;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+footer .subcribe {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+}
+footer .subcribe:hover {
+  color: #f5f9fe;
+  background-color: #b61984;
+  border: 1px solid #f5f9fe;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,197 @@
+header{
+    #phoneNavbar{
+        .nav-link{
+            padding-right: 50px;
+            color: $color-dark-2;
+            font-weight: $fw-2;
+        }
+    }
+    
+    .phoneNav{
+        z-index: 5;
+        position: relative;
+    }
+    .top-img{
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    .header__black{
+        color: $color-dark-1;
+    }
+    .header__white{
+        color: $color-white-1;
+    }
+    
+    .item__right_1{
+        border: 1px solid $color-purple;
+        padding: 8px 8px;
+        border-radius: 20px 20px;
+        background-color: $color-purple;
+        a {
+        text-decoration: none;
+        }
+        &:hover{
+            background-color: $color-white-1;
+            border: 1px solid $color-purple;
+        }
+        &:hover i{
+            color: $color-purple;
+        }
+        &:hover span{
+            color: $color-purple;
+        }
+    }
+    .item__right_2 a{
+        &:hover span{
+            color: $color-purple;
+        }
+    }
+    .header-pading{
+        padding-right: $pd-9;
+    }
+    .bt_bb_row_wrapper{
+        background-image: url(./../../img/Violet_top_left_wave.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+    .bt_bb_port{
+        z-index: 5;
+    }
+    .header-pading-right{
+        padding-left: $pd-9;
+    }
+    .bt-bb-content-left{
+        margin: auto;
+    }
+    .bt-bb-content-left-content-tag p{
+        color: $color-purple;
+        font-size: $fs-2;
+    }
+    .bottom-about-us{
+        font-size: 3.8rem;
+    }
+
+    .find-course{
+        background-image: url(./../../img/accent_bottom_wave_01.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: $pd-7;
+        padding-bottom: 50px;
+        .find-course-item{
+            margin: auto;
+        }
+        
+        .find-course-item-right{
+            padding: $pd-3;
+            box-shadow: 2px 2px #ededed ;
+            border: 1px solid #ededed;
+            border-radius: 10px 10px;
+            background-color: rgba(255,255,255,1);
+        }
+        .find-course-item-right p{
+            font-size: $fs-3;
+            font-weight: $fw-3;
+            text-align: center;
+            padding-top: $pd-3;
+        }
+        .input-1 , .input-2{
+            padding-bottom: 40px;
+        }
+        .input-1-name{
+            position: relative;
+        }
+        .input-1-email{
+            position: relative;
+        }
+        .input-name{
+            position: relative;
+            padding-left: 2rem;
+            margin-right: 5px;
+            border-radius: 10px 10px;
+            padding-top: 5px;
+            border: 1px solid #ededed;
+        }
+        .icon-name{
+            position: absolute;
+            z-index: 2;
+            text-align: left;
+            top: 10px;
+            left: 5px;
+            color: $color-purple;
+        }
+        
+        .icon-mail{
+            position: absolute;
+            z-index: 2;
+            top: 10px;
+            left: 10px;
+            color: $color-purple;
+        }
+        .input-email{
+            position: relative;
+            padding-left: 2rem;
+            margin-left: 5px;
+            border-radius: 10px 10px;
+            padding-top: 5px;
+            border: 1px solid #ededed;
+        }
+        .input-2-english{
+            position: relative;
+        }
+        .icon-english{
+            position: absolute;
+            z-index: 2;
+            top: 10px;
+            left: 5px;
+            color: $color-purple;
+        }
+        .input-english{
+            padding-right: 100%;
+            padding-left: 2rem;
+            border-radius: 10px 10px;
+            padding-top: 5px;
+            border: 1px solid #ededed;
+        }
+        .input-3{
+            position: relative;
+        }
+        .message{
+            position: relative;
+        }
+        .icon-mes{
+            position: absolute;
+            z-index: 2;
+            top: 5px;
+            left: 5px;
+            color: $color-purple;
+
+        }
+        .mes-input{
+            padding-left: 30px;
+            border-radius: 10px 10px;
+            border: 1px solid #ededed;
+        }
+        .button-send{
+            padding-top: 50px;
+            
+        }
+        .send{
+            padding: 10px 50px;
+            color: $color-white-1;
+            background-color: $color-purple;
+            border: 1px solid transparent;
+            border-radius: 40px 40px;
+            &:hover{
+                color: $color-purple;
+                background-color: $color-white-1;
+                border: 1px solid $color-purple;
+            }
+        }
+    }
+        
+}
